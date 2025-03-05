@@ -8,7 +8,7 @@ header {
   display: flex;
   background-color: #1f2937;
   width: 100%;
-  height: 40%;
+  height: 50%;
   flex-wrap: wrap;
 }
 main {
@@ -58,13 +58,41 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0px;
 }
-.hero-text {
-  width: 400px;
-  height: 300px;
+#hero-text {
+  height: 200px;
+  width: 600px;
+  margin-bottom: 60px;
+  padding: 28px;
+}
+#hero-image {
   display: flex;
-  flex-direction: column;
+  height: 200px;
+  width: 600px;
+  margin-bottom: 50px;
+  background-color: #d8d5d5;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+}
+#hero-text h2 {
+  font-size: 48px;
+  margin: 5;
+  color: #f9faf8;
+  font-weight: 900;
+}
+#hero-text p {
+  font-size: 24px;
+  margin: 5;
+  color: #d8d5d5;
+  margin-bottom: 10px;
+}
+#hero-text button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
