@@ -61,14 +61,13 @@ ul {
   gap: 0px;
 }
 #hero-text {
-  height: 200px;
+  height: 250px;
   width: 600px;
   margin-bottom: 60px;
-  padding: 28px;
 }
 #hero-image {
   display: flex;
-  height: 200px;
+  height: 250px;
   width: 600px;
   margin-bottom: 50px;
   background-color: #d8d5d5;
